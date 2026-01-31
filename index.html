@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Devanagari:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <article class="card-container">
+      <section class="result-section">
+        <div class="result">
+          <h1 class="text-preset-5-bold">Your result</h1>
+          <div class="circle">
+            <span class="text-preset-2">76</span>
+            <span class="text-preset-6-bold max-score">of 100</span>
+          </div>
+          <div class="result-comparison">
+            <h2 class="text-preset-4">Great</h2>
+            <p class="text-preset-6-medium">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="summary-section">
+        <h2 class="text-preset-5-bold">Summary</h2>
+
+        <ul class="summary-list">
+          <li class="summary-1">
+            <div class="summary-left">
+              <img src="./assets/images/icon-reaction.svg" alt="" />
+              <span class="text-preset-6-medium"> Reaction </span>
+            </div>
+            <div class="summary-right text-preset-6-bold">
+              <span> 80 </span>
+              <span class="total-score"> / 100 </span>
+            </div>
+          </li>
+          <li class="summary-2">
+            <div class="summary-left">
+              <img src="./assets/images/icon-memory.svg" alt="" />
+              <span class="text-preset-6-medium"> Memory </span>
+            </div>
+            <div class="summary-right text-preset-6-bold">
+              <span> 92 </span>
+              <span class="total-score"> / 100 </span>
+            </div>
+          </li>
+          <li class="summary-3">
+            <div class="summary-left">
+              <img src="./assets/images/icon-verbal.svg" alt="" />
+              <span class="text-preset-6-medium"> Verbal </span>
+            </div>
+            <div class="summary-right text-preset-6-bold">
+              <span> 61 </span>
+              <span class="total-score"> / 100 </span>
+            </div>
+          </li>
+          <li class="summary-4">
+            <div class="summary-left">
+              <img src="./assets/images/icon-visual.svg" alt="" />
+              <span class="text-preset-6-medium"> Visual </span>
+            </div>
+            <div class="summary-right text-preset-6-bold">
+              <span> 73 </span>
+              <span class="total-score"> / 100 </span>
+            </div>
+          </li>
+        </ul>
+        <button class="text-preset-5-bold">Continue</button>
+      </section>
+    </article>
+  </body>
+</html>
