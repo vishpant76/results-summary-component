@@ -214,16 +214,31 @@ li {
   background-color: var(--reaction-bg);
 }
 
+.summary-1 .summary-left {
+  color: var(--light-red);
+}
+
 .summary-2 {
   background-color: var(--memory-bg);
+}
+.summary-2 .summary-left {
+  color: var(--orange-yellow);
 }
 
 .summary-3 {
   background-color: var(--verbal-bg);
 }
 
+.summary-3 .summary-left {
+  color: var(--green-teal);
+}
+
 .summary-4 {
   background-color: var(--visual-bg);
+}
+
+.summary-4 .summary-left {
+  color: var(--cobalt-blue);
 }
 
 .total-score {
