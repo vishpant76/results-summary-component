@@ -11,7 +11,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
     <link
       rel="icon"
       type="image/png"
@@ -43,7 +42,48 @@
       <section class="summary-section">
         <h2 class="text-preset-5-bold">Summary</h2>
 
-        <ul class="summary-list"></ul>
+        <ul class="summary-list">
+          <li class="summary-1">
+            <div class="summary-left">
+              <img src="./assets/images/icon-reaction.svg" alt="" />
+              <span class="text-preset-6-medium"> Reaction </span>
+            </div>
+            <div class="summary-right text-preset-6-bold">
+              <span> 80 </span>
+              <span class="total-score"> / 100 </span>
+            </div>
+          </li>
+          <li class="summary-2">
+            <div class="summary-left">
+              <img src="./assets/images/icon-memory.svg" alt="" />
+              <span class="text-preset-6-medium"> Memory </span>
+            </div>
+            <div class="summary-right text-preset-6-bold">
+              <span> 92 </span>
+              <span class="total-score"> / 100 </span>
+            </div>
+          </li>
+          <li class="summary-3">
+            <div class="summary-left">
+              <img src="./assets/images/icon-verbal.svg" alt="" />
+              <span class="text-preset-6-medium"> Verbal </span>
+            </div>
+            <div class="summary-right text-preset-6-bold">
+              <span> 61 </span>
+              <span class="total-score"> / 100 </span>
+            </div>
+          </li>
+          <li class="summary-4">
+            <div class="summary-left">
+              <img src="./assets/images/icon-visual.svg" alt="" />
+              <span class="text-preset-6-medium"> Visual </span>
+            </div>
+            <div class="summary-right text-preset-6-bold">
+              <span> 73 </span>
+              <span class="total-score"> / 100 </span>
+            </div>
+          </li>
+        </ul>
         <button class="text-preset-5-bold">Continue</button>
       </section>
     </article>
